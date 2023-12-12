@@ -1,0 +1,412 @@
+@charset "utf-8";
+.logo {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;	
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+  }
+
+  .navbar-nav li {
+    margin-bottom: 1px
+		
+}
+
+
+.nav-item {
+  margin-right: 20px; 
+
+}
+
+.nav-link {
+    text-decoration: none; 
+    border-bottom: 3px solid transparent;  
+    display: inline-block; 
+}
+
+
+.button-container {
+        display: flex;
+        gap: 20px; 
+    }
+
+   
+
+
+.ser {
+    display: flex;
+    align-items: center;
+	 border: none;
+}
+
+.ser svg {
+    margin-right: 10px; 
+}
+
+.ser .text {
+    font-size: 1.3em; 
+}
+ .ser:hover {
+    border: none; 
+    
+  }
+
+
+
+
+.img-fluid {
+  border-radius: 10px;
+}
+
+.logo1 {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin: 0px 10px;
+}
+#upp {
+	height: 3px;
+	background-color: #686868;
+	border: none;
+	
+}
+#upp1 {
+	height: 3px;
+	width: 300px;
+	background-color: #DC143C;
+	border: none;
+}
+#upp2 {
+	height: 4px;
+	width: 300px;
+	background-color: #32CD32;
+	border: none;
+	
+}
+#upp3 {
+	height: 3px;
+	background-color: #686868;
+	border: none;
+	
+}
+#upp4 {
+	height: 3px;
+	
+	background-color: #686868;
+	border: none;
+}
+
+
+.crb {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white; 
+}
+   .vl-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .vl {
+            border-left: 10px solid black;
+            height: 200px;
+            margin-right: 10px;
+}
+ .vl1 {
+            border-left:4px solid #000000;
+            height: 100px;
+            margin-right: 10px;
+}
+.vl2 {
+            border-left:1px solid #000000;
+            height: 100px;
+            margin-right: 10px;
+}
+.vl3 {
+	display: inline-block; 
+    height: 70px; 
+    border-left: 1px solid #000000;
+    margin-right: 100px;
+    line-height: 1.5; 
+}
+.vl4 {
+	display: inline-block; 
+    height: 14px; 
+    border-left: 9px solid #FF0000;
+    margin-right: 10px;
+    line-height: 1.5; 
+}
+.m3{
+	font-family: "Aptos Black Theme Font", Arial, sans-serif;
+	 font-size: 25px;
+	
+}
+.white-text {
+    color: white; 
+  
+    font-size: 20px; 
+}
+
+.symbol {
+    margin-right: 5px; 
+}
+   b {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+        
+        #clock {
+            font-size: 20px;
+            margin-top: px;
+            display: flex;
+            align-items: center; 
+        }
+      footer {
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+footer img {
+  margin-right: 40px; 
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+  .brig {
+  text-align: right;
+}
+
+.nav001{
+  margin-right:40px; 
+}
+
+.sec1{
+	background-color: darkgray;
+}
+ 
+.bg-black {
+  background-color: darkgray;
+  color: white;
+}
+.logo2 {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;	
+}
+.fot{ 
+  margin-right: 15px; 
+  width: 60px;
+  height: 60px;
+	border-radius: 10px;}
+	
+.custom-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+	
+  }
+
+  
+  .horizontal-line {
+    border-top: 1px solid black; 
+    flex-grow: 5;
+	  align-items: center
+  }
+.btext{
+	font-weight: bold;
+}
+.exp1{
+	text-align: left;
+	
+}
+
+.MAD{
+	margin-bottom: 20px;
+}
+
+.dropdown-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("images/mmr.png");
+  background-size: cover;
+  text-align: center;
+  line-height: 15px;
+  filter: invert(100%); 
+}
+
+	
+
+  
+
+   
+    .fot {
+        vertical-align: middle;
+        margin-right: 5px; 
+    }
+.bgmain {
+    background-color: #0D0F28;
+}
+.head{
+	background-color: midnightblue;
+}
+#myButton {
+        background-color: lightgray;
+        color: #fff;
+        padding: 10px 10px;
+        border: none;
+	    border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; 
+    }
+
+   
+    #myButton.clicked {
+        background-color: white; 
+		border:none;
+    }
+
+   
+    #myButton:hover {
+        background-color: #3b5998;
+		border-radius: 25px;
+    }
+ #myButton1 {
+        background-color: lightgray;
+        color: #fff;
+        padding: 10px 10px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+	    border-radius: 25px;
+    }
+
+   
+    #myButton1.clicked {
+        background-color: lightgray; 
+		border:none;
+    }
+
+   
+    #myButton1:hover {
+        background: linear-gradient(45deg,  #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+		border-radius: 25px;
+    } 
+#myButton2 {
+        background-color: lightgray;
+        color: #fff;
+        padding: 10px 10px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease; 
+	    border-radius: 25px;
+    }
+
+   
+    #myButton2.clicked {
+        background-color: white; 
+    }
+
+   
+    #myButton2:hover {
+        background-color: darkgray;
+		border-radius: 25px;
+    } 
+#myButton3 {
+        background-color: lightgray;
+        color: lightgray;
+        padding: 10px 10px;
+        border: none;
+        cursor: pointer;
+	    border-radius: 25px;
+        transition: background-color 0.3s ease; 
+    }
+
+   
+    #myButton3.clicked {
+        background-color: white; 
+    }
+
+   
+    #myButton3:hover {
+        background-color: #0A66C2;
+		border-radius: 25px;
+    }
+.button-container button {
+    color: white;
+}
+
+.button-container svg {
+    fill: white;
+}
+body {
+    background-color: lightgray;
+}
+ .symboltrv {
+    display: inline;
+    color: #ffffff;
+	margin-right: 10px; 
+  }
+ .texttrv {
+    color: #ffffff;
+  }
+.vl5 {
+	display: inline-block; 
+    height: 14px; 
+    border-left: 9px solid #FF0000;
+    margin-right: 7px;
+    line-height: 1.5;
+}
+
+.sec{
+	background-image: url("images/photo-1495781856580-b3c4e8d21bf9.jpeg");
+    background-size: cover; 
+    background-position: center; 
+    height: 400px;
+   
+	
+}
+.btn123 {
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    padding: 3px 8px;
+    color: #ffffff;
+    cursor: pointer;
+	
+    text-decoration: none;
+    font-size: 20px;
+}
+ 
+
+
+
+
+.carousel-inner .carousel-item img {
+    width: 1280px; 
+    height: 300px; 
+	object-fit: cover; }
+.fo01{
+	text-align: center;
+	margin: auto;
+  
+}
+    
